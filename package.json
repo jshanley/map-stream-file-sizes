@@ -1,0 +1,35 @@
+{
+  "name": "map-stream-file-sizes",
+  "version": "1.0.0",
+  "description": "Logs a mapping of pathnames to file sizes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jshanley/map-stream-file-sizes.git"
+  },
+  "contributors": [
+    {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "http://sindresorhus.com"
+    },
+    {
+      "name": "John Shanley",
+      "email": "john.michael.shanley@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jshanley/map-stream-file-sizes/issues"
+  },
+  "homepage": "https://github.com/jshanley/map-stream-file-sizes#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "gulp-util": "^3.0.7",
+    "stream-counter": "^1.0.0",
+    "through2": "^2.0.0"
+  }
+}
